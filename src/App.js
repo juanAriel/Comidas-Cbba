@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+import NavBar from './components/NavBar';
 import './App.css';
+import Hero from './components/Hero';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+       <NavBar />
+       <Hero/>
+    </>
   );
 }
 
