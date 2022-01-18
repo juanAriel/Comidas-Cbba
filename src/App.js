@@ -7,6 +7,7 @@ import {Routes,Route} from 'react-router-dom'
 import About from './pages/about';
 import Menu from './pages/menu'
 import Dropdow from './components/Dropdow';
+import Contacto from './pages/contacto';
 
 function App() {
   const [isOpen,setIsOpen]=useState(false)
@@ -32,6 +33,7 @@ function App() {
          <Route path='/' element={<Home></Home>}></Route>
          <Route path='/menu' element={<Menu></Menu>}></Route>
          <Route path='/about' element={<About></About>}></Route>
+         <Route path='/contacto' element={<Contacto></Contacto>}></Route>
        </Routes>
        
        

@@ -7,7 +7,7 @@ export default function Dropdow({isOpen, toggle}) {
                 <Link className="p-4" to="/">Inicio</Link>
                 <Link className="p-4" to="/menu">Menu</Link>
                 <Link className="p-4" to="/about">Acerca de</Link>
-                <Link className="p-4" to="/contact">Contactos</Link>
+                <Link className="p-4" to="/contacto">Contactos</Link>
         </div>
     )
 }
