@@ -26,7 +26,7 @@ export default function Content() {
               <img src={Cena} alt="" className="h-48 rounded mb-10 shadow md:h-full" />
               <div className="flex flex-col justify-center items-center">
                   <h2 className="text-2xl-mb-2 font-black uppercase">Silpancho</h2>
-                  <p className="mb-2 text-center font-black">Plato que se frecuenta en de Cochabamba</p>
+                  <p className="mb-2 text-center font-black">Plato que se frecuenta como cena en Cochabamba</p>
                   <span className='text-3xl font-black'>15bs</span>
               </div>
           </div>  
