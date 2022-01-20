@@ -34,8 +34,8 @@ const Contacto = () => {
         setMessage("");
         }
     return (
-        <div className='h-screen flex justify-center items-center bg-blue-300'>
-            <div className='container mx-auto my-20 w-1/3 border border-purple-500 bg-white'>
+        <div className='h-screen flex justify-center items-center bg-gray-200'>
+            <div className='container mx-auto my-20 w-1/3 border border-blue-300 bg-white'>
                 <div className='p-5 space-y-5 shadow-xl'>
                     <h4 className='text-center text-3xl'>Contactanos..</h4>
                     <form class="w-full max-w-lg" onSubmit={handleSubmit}>
